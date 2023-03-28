@@ -13,7 +13,8 @@ Firstly, parse the input string into a list of numbers. Then sort them in ascend
 
 4. Circular shift array
 
-The given position k partitions a given array into 2 parts. And the 2 parts need to be swapped. Then the first part after the swap is reversed again to produce the final result. Therefore, we can firstly reverse the 2 splits at first, respectively. Then reverse the whole array. The final result can be obtained. Because the 2 reversion conducted on the 2 parts has been canceled out.
+The given position k partitions a given array into 2 parts. And the 2 parts need to be swapped. Take the circular right shift as example. It first needs to partition a given array/list into 2 parts according to the given k, then the 2 parts needs to be swapped. After swap, the first part needed to be reversed to produce the final result. Therefore, we can reverse the 2 splits at first, respectively. Then reverse the whole array. The final result can be obtained. Because the 2 reversion conducted on the 2 parts has been canceled out.
+
 
 5. Output the most frequently occurred words in a given string.
 
